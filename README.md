@@ -1,1 +1,2 @@
-# _Pathfinding-using-A-
+# _Pathfinding-using-A*-
+The A* algorithm helps find the shortest path from a starting point to a goal on a grid. It works by calculating two things: the actual cost to reach a point (g_score) and an estimated guess of how far the goal is (heuristic). It adds these two values to get f_score and always explores the path with the lowest f_score first. The algorithm checks possible moves (up, down, left, right), avoids obstacles, and keeps track of the best path. Once it reaches the goal, it backtracks to give the shortest path. It's fast and smart because it combines real distance with a smart guess!
